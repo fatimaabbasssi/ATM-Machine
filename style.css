@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-abstract-technology-background-technical-electric-image_443494.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  
+}
+
+.head{
+    color: white;
+    text-shadow: 5px 3px  10px rgb(56, 255, 182);
+}
+
+.atm-main{
+    width: 360px;
+    min-height: 70%;
+    border-radius: 15px;
+    background-image: url(https://img.freepik.com/free-vector/colorful-gradient-background-modern-design_361591-4580.jpg);
+    object-fit: cover;
+    box-shadow: rgba(109, 255, 235, 0.799) 0px 3px 6px, rgba(249, 251, 255, 0.438) 0px 3px 6px;
+    padding: 1em;
+    margin-bottom: 3em;
+   
+
+}
+
+#dis{
+    width: 99%;
+    height: 90px;
+    /* padding: 1em; */
+    background-color: rgb(69, 69, 74);
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: "Itim", cursive;
+    color: white;
+    
+}
+
+.but{
+    width: 65px;
+    height: 50px;
+    margin: 6px;
+    border-radius: 7px;
+    font-family: "Itim", cursive;
+
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.cian{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.bal{
+    width: 32%;
+    height: 40px;
+    /* border-radius: 7px; */
+    margin-top: 1em;
+    font-family: "Itim", cursive;
+}
+
+
+#sub{
+    width: 99%;
+    height: 40px;
+    background-color: rgb(0, 255, 170);
+    margin-top: 1em;
+    border-radius: 7px;
+    font-family: "Itim", cursive;
+}
+
+.footer{
+    padding: 0.6em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 2em;
+}
+
+
+
+/* media query */
+
+@media (max-width:420px) {
+    
+    .atm-main{
+        width: 300px;
+
+    }
+
+
+
+.but{
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+
+}
+
+#dis{
+  font-size: 0.7em;
+    
+}
+
+}
+
+@media (max-width:320px) {
+    
+    .atm-main{
+        width: 270px;
+        
+    }
+
+    .but{
+        width: 63px;
+        height: 35px;
+        margin: 6px;
+    
+    }
+
+    #dis{
+        font-size: 0.6em;
+          
+      }
+
+
+}
